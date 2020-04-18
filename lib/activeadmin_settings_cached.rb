@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'activeadmin_settings_cached/engine'
-
 module ActiveadminSettingsCached
   class Configuration
     attr_accessor :model_name, :display
